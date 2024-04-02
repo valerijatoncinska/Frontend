@@ -1,0 +1,61 @@
+<!-- from: != -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Signup Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input id="name" type="text" placeholder="enter your name" required />
+    </form>
+
+    <form>
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="enter your email" required />
+    </form>
+
+    <form>
+      <label for="phone">Phone:</label>
+      <input
+        id="phone"
+        type="tel"
+        placeholder="Example: +123-000-000"
+        pattern="\+?[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
+        required
+      />
+    </form>
+
+    <form>
+      <label for="password">Password:</label>
+      <input
+        id="password"
+        type="password"
+        placeholder="enter your password"
+        required
+      />
+    </form>
+
+    <form>
+      <label for="checkbox">Employed?:</label>
+      <input id="checkbox" type="checkbox" required />
+    </form>
+
+    <label for="date">Birth Date:</label>
+
+    <input
+      type="date"
+      id="date"
+      name="date"
+      min="01-01-1900"
+      max="03-04-2024"
+    />
+  </body>
+</html>
+
+<!--       <button type="submit">Submit</button>
+      <button type="reset">Reset</button> -->
