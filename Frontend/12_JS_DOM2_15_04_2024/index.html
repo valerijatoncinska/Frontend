@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <title>DOM (part2)</title>
+  </head>
+  <body>
+    <section id="create">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <button onclick="createAccount()">Create New Account</button>
+      <button onclick="showAccounts()">Show All Accounts</button>
+    </section>
+
+    <section id="show">
+      <ol id="accountsList"></ol>
+    </section>
+
+    <section id="change">
+        <label for="accountID">Account ID:</label>
+        <input type="text" id="accountId" />
+
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" />
+      </ol>
+
+      <button id="withdraw">Withdraw</button>
+      <button id="deposit">Deposit</button>
+    </section>
+  </body>
+</html>
