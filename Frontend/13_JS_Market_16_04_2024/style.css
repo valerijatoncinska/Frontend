@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+
+body {
+    margin: 10%;
+  font-family: Katibeh;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: bold;
+  color: rgb(17, 11, 7);
+  background-color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+ol {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
