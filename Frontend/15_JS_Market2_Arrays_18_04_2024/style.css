@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+
+body {
+    margin: 3%;
+  font-family: Katibeh;
+  font-weight: 400;
+  color: rgb(17, 11, 7);
+  background-color: antiquewhite;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+ol {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 10px;
+    margin: 2px;
+
+}
+
+
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(212, 82, 58);
+    color: rgb(78, 14, 12);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(161, 55, 36);
+}

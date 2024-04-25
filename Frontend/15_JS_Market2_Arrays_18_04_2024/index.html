@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Market</title>
+  </head>
+  <body>
+    <div id="form">
+      <label for="productName">Name of product:</label>
+      <input type="text" id="productName" placeholder="Enter product name..." />
+
+      <label for="productPrice">Price of product...</label>
+      <input
+        type="text"
+        id="productPrice"
+        placeholder="Enter product price..."
+      />
+
+      <label for="productQuantity">Quantity of product...</label>
+      <input
+        type="number"
+        id="productQuantity"
+        placeholder="Enter product quantity..."
+      />
+      <div id="buttons">
+        <button id="add">Add product</button>
+        <button id="delete">Delete Product</button>
+        <button id="stats">Show stats</button>
+      </div>
+    </div>
+
+    <ol id="productsList"></ol>
+
+    <ol id="statsList"></ol>
+  </body>
+</html>
